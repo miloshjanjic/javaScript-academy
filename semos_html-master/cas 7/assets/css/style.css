@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 2000px;
+}
+.parent {
+  background-color: rgb(3, 170, 170);
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  margin: 25px;
+  height: 1000px;
+}
+.child-1 {
+  background-color: violet;
+  /* position: relative;
+  top: 10;
+  left: 5;
+  bottom: ;
+  right: ; */
+  position: absolute;
+  top: -10px;
+  right:-23px;
+}
+.child-2 {
+  background-color: yellowgreen;
+  position: fixed;
+  top: 0;
+}
+.child-3 {
+  background-color: rgb(101, 101, 163);
+  position: sticky;
+  top: 0;
+}

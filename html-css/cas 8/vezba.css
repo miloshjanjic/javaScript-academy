@@ -1,0 +1,30 @@
+.main{
+  background-color: rgb(88, 130, 155);
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: auto auto auto auto;
+  height: 350px;
+  width: 40%;
+  border: 1px solid black;
+  padding: 10px;
+}
+.main > div{
+  font-size:20px ;
+  padding: 5px;
+  background: rgb(130, 160, 79);
+  text-align: center;
+  color: white;
+
+}
+.main > div:hover{
+  cursor: pointer;
+  font-size: 25px;
+  background-color: tomato; 
+}
+.item1{
+  grid-area: 1/1/2/5 ;
+  background: white;
+}
+.item15{
+  grid-area: 5/3/5/5;
+}

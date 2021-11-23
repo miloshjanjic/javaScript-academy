@@ -1,0 +1,15 @@
+{
+  "name": "http-node-server",
+  "version": "1.0.0",
+  "description": "The http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Milosh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

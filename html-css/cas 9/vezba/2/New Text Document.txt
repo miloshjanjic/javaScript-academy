@@ -1,0 +1,16 @@
+.flex-container{
+  display: flex;
+  position: absolute;
+  bottom:-1420px ;
+  right: 450px;
+}
+.flex-container > div{
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  opacity: 0.7;
+  width: 220px;
+  height: 130px;
+  left: 220px;
+  bottom: -30px;
+}

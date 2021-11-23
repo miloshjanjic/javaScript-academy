@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: Rubik;
+  src: url('../fonts/rubik/Rubik-VariableFont_wght.ttf');
+  }
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: 
+  black;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  background:black;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  height: 35px;
+  font-size: 20px;
+}
+.flex{
+  display: inline-flexbox;
+  background-color: rgb(202, 141, 98);
+ 
+}
+footer{
+  position: bottom;
+	background-color:black;
+  text-align:right;	
+  color: aqua;
+  height: 30px;
+  font-size: 20px;
+}
+.img {
+  width: 500px;
+  height: 400px;
+  transition: filter 300ms ease;
+}
+.img:hover {
+  filter: sepia(1);
+}
+
+.text{
+  background-color: rgb(36, 54, 54);
+  color: white;
+  font-size: 15px;
+}
+@media screen and (max-width: 500px) {
+  .flex {        
+      flex-direction: column;
+      wrap:none;
+      align-items: center;
+  }
+  .img {
+    width:200px ;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 750px) {
+
+  .flex {
+      margin: 10px;
+  }
+  .img {
+    width:300px ;
+    height: 250px;
+    border: 1px solid red;
+  }
+}
+@media screen and (max-width: 1000px) {
+
+  .flex {
+    flex-direction: column;
+  }
+  .img{
+    width:400px ;
+    height: 350px;
+  }
+}

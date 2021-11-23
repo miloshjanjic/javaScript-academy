@@ -1,0 +1,60 @@
+*{
+  background-color: rgb(179, 202, 210);
+}
+.cloud1{
+  position: absolute;
+  animation: firstCloud;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  height:200px ;
+  width: 300;
+}
+.cloud2{
+  position:absolute;
+  animation: secondCloud;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  height: 200px;
+  width: 300px;
+}
+@keyframes firstCloud{
+  0%{top:0px;left: 0px;}
+  25%{top: 0px;left: 250px;}
+  50%{top: 0px;left: 500px;}
+  75%{top: 0px;left: 750px;}
+  100%{top: 0px;left: 1050px;}
+}
+@keyframes secondCloud{
+  0%{top: 0px; left: 1100px;}
+  25%{top: 0px; left: 750px;}
+  50%{top: 0px;left: 500px;}
+  75%{top: 0px; left: 250px;}
+  100%{top:0px ;left: 0px;}
+}
+.rain{
+  width:350px ;
+  height:200px ;
+  animation: rain;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position:absolute;
+}
+@keyframes rain{
+  0%{top: 500px; left: 0px;}
+  25%{top: 500px; left: 250px;}
+  50%{top: 500px;left: 500px;}
+  75%{top: 500px; left: 750px;}
+  100%{top:500px ;left: 1100px;}
+}
+.snow{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+  animation: snowAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes snowAnimation{
+  from {top:200px ;}
+  to {top: 600px;transform: rotate(360deg);}
+}

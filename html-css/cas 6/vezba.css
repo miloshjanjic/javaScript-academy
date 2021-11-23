@@ -1,0 +1,41 @@
+*{
+  background-color:rgba(72, 218, 108, 0.5);
+}
+ul>li{
+  float: left;
+  list-style: none;
+  margin: 15px;
+}
+.div1{
+width: 47%;
+float: left;
+display: inline-block;
+background-color: rgb(21, 90, 90);
+}
+.div2{
+width: 47%;
+float: right;
+display: inline-block;
+background-color:rgb(21,90,90);
+
+}
+.img1{
+  width: 240px;
+  height: 170px;
+  float: left;
+}
+.div1>p{
+  float: right;
+}
+.div2>p{
+  float: right;
+}
+.img2{
+  width:240px ;
+  height:170px ;
+  float: left;
+}
+button{
+  background-color: rgb(163, 34, 34);
+  color: antiquewhite;
+}

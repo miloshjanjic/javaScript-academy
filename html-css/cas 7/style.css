@@ -1,0 +1,23 @@
+.flex-container{
+display: flex;
+background-color: cadetblue;
+flex-direction:row;
+flex-wrap: wrap-reverse;
+justify-content: center;
+align-content: ;
+height: 300px;
+}
+.flex-container > div{
+margin:20px ;
+background-color: crimson;
+font-size: 30px;
+padding: 10px;
+}
+/* flex-basis
+  flex-grow
+  aling-self
+  order
+*/
+.div4{
+  flex-basis: 250px;
+}

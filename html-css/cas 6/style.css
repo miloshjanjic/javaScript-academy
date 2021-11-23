@@ -1,0 +1,45 @@
+div{
+  font-size: 30px;
+  text-align: center;
+  color: antiquewhite;
+}
+#div1{
+background-color:red ;
+display: inline-block;
+width: 40%;
+height: 100px;
+}
+#div2{
+background-color: rgb(53, 12, 92);
+display: inline-block;
+width: 40%;
+height: 100px;
+}
+#div3{
+background-color:gold ;
+display: block;
+height: 100px;
+}
+#div4{
+background-color:rgb(94, 94, 216) ;
+display: inline-block;
+width: 49%;
+height: 100px;
+}
+#div5{
+background-color: grey;
+display: inline-block;
+width: 49%;
+height: 100px;
+}
+#div6{
+background-color:green ;
+display: block;
+height: 100px;
+}
+p{
+  float:right ;
+}
+img{
+  float: left;
+}

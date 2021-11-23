@@ -1,0 +1,18 @@
+{
+    "weather": {
+        "api_key_weather": "a7459801652d09059acbb0ae58d152f8",
+        "api_version_weather": "2.5"
+    },
+    "movie": {
+        "api_key_movie": "24a4dfd7"
+    },
+    "db": {
+        "host": "",
+        "username": "",
+        "password": "",
+        "dbname": ""
+    },
+    "service": {
+        "port": 9000
+    }
+}

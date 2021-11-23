@@ -1,0 +1,42 @@
+  20.12.20/Daniel Peshevski
+  
+  Osvezuvanje za GIT,lista na potrebni raboti:
+  
+    1. How to create a repository on GitHub
+    2. How to clone a GitHub repository
+    3. How to use Git in Visual Studio Code
+    4. How to create a new branch in Git
+    5. How to committing changes in Git and pushing to a GitHub Repo
+    6. How to add contributions into GitHub repository
+    7. How to create Pull Request GitHub
+    8. How to add Reviewer to pull request GitHub
+
+
+  Videte za slednite git komandi (git commands)
+
+    1. git clone
+    2. git pull
+    3. git add
+    4. git commit
+    5. git push
+    6. git checkout
+    
+    
+    
+    dodavanje preku VSC
+    1. git init
+    2. git add .
+    3. git commit -m "<commit message>"
+    4. git push origin <branch-name>
+    
+    (  git push -u origin master ; git pull --rebase ;  git push --set-upstream origin newBranch ; )
+    
+    git clone <url repo>
+    git pull oriign master
+    
+    $ git remote -v
+    $ git remote rm origin
+    $ git commit -m "your commit"
+    $ git remote add origin https://github.com/user/repo.git
+    $ git push -f origin master
+    

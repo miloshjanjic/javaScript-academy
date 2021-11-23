@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.div-main{
+  display: flex;
+  border: 1px solid salmon;
+}
+.div1{
+flex-grow: 1;
+background-color: rgb(107, 141, 73);
+margin: 5px;
+padding: 5px;
+text-align: center;
+}
+.div2{
+flex-grow: 1;
+background-color: lightcoral;
+margin: 5px;
+padding: 5px;
+text-align: center;
+}
+.div3{
+flex-grow: 1;
+background-color: lightseagreen;
+margin: 5px;
+padding: 5px;
+text-align: center;
+}
+.div5{
+  height: 500px;
+  width: 650px;
+  float: right;
+  background-color: lightslategray;
+}
+.lorem{
+  float: left;
+
+}

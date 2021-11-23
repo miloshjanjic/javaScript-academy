@@ -1,0 +1,15 @@
+[{
+  "id": "1",
+  "firstName": "Petko",
+  "lastName": "Petkovski",
+  "city" : "Prilep"},
+  {"id": "2",
+  "firstName": "Stojan",
+  "lastName": "Stojanovski",
+  "city" : "Struga"},
+  {"id": "3",
+  "firstName": "Trajko",
+  "lastName": "Trajkovski",
+  "city" : "Tetovo"
+}]
+{"id":"4","firstName":"Koki","lastName":"Kostov","city":"Kratovo"}

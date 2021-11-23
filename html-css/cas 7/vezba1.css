@@ -1,0 +1,23 @@
+.div-main{
+  background-color: darkcyan;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div-main > .card{
+  margin: 10px;
+}
+.card{
+  border: 1px solid rgb(82, 80, 80);
+  text-align: center;
+}
+.card:hover{
+cursor: pointer;
+box-shadow:6px 10px brown ;
+}
+img{
+  width: 100%;
+}
+
+
+

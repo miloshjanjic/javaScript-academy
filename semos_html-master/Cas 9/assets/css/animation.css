@@ -1,0 +1,11 @@
+.cont {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* transition: background-color ; */
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+  /* transition-delay: 300ms; */
+  opacity: 0.5;
+}

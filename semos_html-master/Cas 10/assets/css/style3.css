@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: teal;
+  color: white;
+}
+nav{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: 
+  black;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+nav a{
+  display: block;
+  background:black;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  height: 35px;
+  font-size: 20px;
+  float: left;
+}
+footer{
+
+	background-color:black;
+  text-align:right;	
+  color: aqua;
+  height: 30px;
+  font-size: 20px;
+  bottom: 0px;
+}

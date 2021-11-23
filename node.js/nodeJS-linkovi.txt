@@ -1,0 +1,72 @@
+ https://nodejs.org/api/modules.html
+ 
+: https://nodejs.org/api/os.html
+
+: https://nodejs.org/api/path.html
+
+ https://www.youtube.com/watch?v=uC9aAA4TGY0
+ 
+ https://www.youtube.com/watch?v=TlB_eWDSMt4
+ 
+ https://dev.to/janniks/a-better-way-to-import-local-node-js-modules-mi3
+ 
+ https://developer.mozilla.org/en-US/        //javaScrpt
+ 
+ https://nodejs.org/dist/latest-v15.x/docs/api/events.html
+ 
+ https://nodejs.org/dist/latest-v14.x/docs/api/fs.html
+ 
+ https://nodejs.org/dist/latest-v14.x/docs/api/stream.html
+ 
+  https://nodejs.org/dist/latest-v14.x/docs/api/http.html
+  
+  https://nodejs.org/dist/latest-v14.x/docs/api/fs.html
+  
+https://www.npmjs.com/package/express
+
+https://www.npmjs.com/package/nodemon
+
+https://www.npmjs.com/package/body-parser
+
+https://expressjs.com/
+
+https://youtu.be/pKd0Rpw7O48
+
+https://youtu.be/nuw48-u3Yrg
+
+https://ejs.co/
+
+https://www.mongodb.com/try/download/community
+
+https://docs.mongodb.com/manual/core/databases-and-collections/
+
+https://docs.mongodb.com/manual/installation/
+
+https://docs.mongodb.com/manual/introduction/
+
+https://docs.mongodb.com/manual/tutorial/getting-started/
+
+https://docs.mongodb.com/manual/crud/
+
+https://docs.mongodb.com/manual/reference/method/#collection
+
+https://developer.mongodb.com/community/forums/
+
+https://mongoosejs.com/
+
+https://medium.com/coralogix-engineering/how-js-works-behind-the-scenes-the-engine-9f15bba95a15
+
+https://medium.com/autodesk-tlv/streams-in-depth-in-node-js-c8cc7f1eb0d6
+
+https://tomanagle.medium.com/software-design-patterns-in-javascript-7b329e14aa48
+
+https://medium.com/@victor.valencia.rico/environment-variables-with-node-js-1f84fa26f316
+
+https://medium.com/javascript-in-plain-english/how-to-read-an-excel-file-in-node-js-6e669e9a3ce1
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+https://www.samanthaming.com/tidbits/70-3-ways-to-clone-objects/
+
+https://github.com/dpeshevski/semos-nodejs-generation_10
+

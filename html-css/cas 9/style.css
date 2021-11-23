@@ -1,0 +1,53 @@
+body{
+  background-image: linear-gradient(red,yellow,green);
+}
+input[type="text"],input[type="number"],input[type="email"]{
+  display: block;
+  height: 40px;
+  border: 0px;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+input:read-only{
+  border: 2px solid green;
+}
+input:read-write{
+  border: 2px solid salmon;
+}
+input:hover{
+  border: 3px solid blue;
+}
+
+
+/* input[type="checkbox"]:checked{
+  height: 50px;
+  width: 50px;
+}
+p:empty{
+  background: red;
+} */
+/* p:first-of-type{
+  background-color: green;
+} */
+/* input:first-child{
+  border: 3px solid red;
+} */
+/* p:last-of-type{
+  background: green;
+} */
+/* input:focus{
+  border: 3px solid blue;
+}
+input[type="number"]:in-range{
+  border: 3px dotted brown;
+}
+input[type="email"]:invalid {
+  border: 3px solid red;
+}
+p:nth-child(2n){
+  background-color: green;
+} */
+
+
+
+

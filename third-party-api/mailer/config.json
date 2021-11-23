@@ -1,0 +1,21 @@
+{
+    "weather": {
+        "api_key": "",
+        "api_version": ""
+    },
+    "db": {
+        "host": "",
+        "username": "",
+        "password": "",
+        "dbname": ""
+    },
+    "mailer": {
+        "username": "api",
+        "api_key": "bb9774c218378abffeb6214b533cbefe-71b35d7e-2765c939",
+        "domain": "sandbox3a00da6599b24d91b24687222d060a58.mailgun.org",
+        "from": "Pero Perovski<pero@perovski.com>"
+    },
+    "service": {
+        "port": 9000
+    }
+}

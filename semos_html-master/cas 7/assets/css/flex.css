@@ -1,0 +1,69 @@
+/* *{
+  background-color: chocolate;
+} */
+span{
+display: inline-block;
+/* inline block ovozvozuva pristap do width i height inaku e isto so inline */
+background-color: red;
+width: 100px;
+}
+/* inline elemnti se ul i ol  */
+/* .test1 {
+display: none;
+visibility: hidden;
+} */
+.main-container{
+  background-color: rgb(143, 145, 150);
+padding: 7px;
+display: flex;
+flex-direction: row;
+/* flex-direction: row-reverse;
+flex-direction: column;
+flex-direction:column-reverse ; */
+/* se odnesuva na glavnata oska */
+justify-content: space-evenly;
+/* justify-content: center;
+justify-content:space-evenly ;
+justify-content:space-between ;
+justify-content: flex-start;
+justify-content:flex-end ; */
+
+/* align-items: ;
+flex-wrap: wrap;
+flex-wrap:nowrap ;
+flex-wrap: ;
+
+*/
+align-items: start;
+flex-wrap: wrap;
+}
+.flex-item{
+  border: 1px solid black;
+  background-color: rgb(129, 129, 182);
+  margin: 10px;
+}
+.main-container > .flex-item:nth-child(even) {
+  align-self: end;
+}
+.child-1{
+  flex-basis: 15%;
+  align-self:flex-end ;
+}
+.child-2 {
+flex-basis: 15%;
+/* overflow: scroll;
+height: 100px; 
+ako izleze testot nadvor od perent elementot moze da se koristi overflow*/
+}
+.child-3{
+  flex-basis: 25%;
+}
+.child-4{
+flex-basis: 10%;
+}
+.child-5{
+flex-basis: 15%;
+}
+.child-6{
+flex-basis: 15px;
+}

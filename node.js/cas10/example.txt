@@ -1,0 +1,54 @@
+db.post.insertOne({
+  title: 'Post one',
+  body: 'Body of post one',
+  category: 'News',
+  likes: 4,
+  tags: ['news','events'],
+  user: {
+    name: 'John',
+    status: 'author'
+  },
+  date: Date()
+})
+
+db.post.insertMany([
+  {
+    title: 'Post Two',
+    body: 'body of post two',
+    category: 'Tehnology',
+    date: Date()
+  },
+  {
+    title: 'Post Three',
+    body: 'body of post three',
+    category: 'News',
+    date: Date()
+  },
+  {
+    title: 'Post Four',
+    body: 'body of post four',
+    category: 'TV shows',
+    date: Date()  
+  }
+])
+
+
+
+db.post.find().forEach(function (doc) { print('Blog Post: '+ doc.title) })
+
+
+db.post.update({ title: "Post one"}, { 
+  $set: {
+    comments: [
+      { 
+        user: 'Merry Williams',
+        body: 'Comment One',
+        date: Date()
+      },{
+        user: 'Harry Hoo',
+        body: 'Comment Two',
+        date: Date()
+      }
+    ]
+  }
+})

@@ -1,0 +1,19 @@
+[{
+  "id": "1",
+  "firstname": "UserTest1",
+  "lastname" : "UserTest1",
+  "username" : "usertest1"
+},
+{
+  "id": "2",
+  "firstname": "UserTest2",
+  "lastname" : "UserTest2",
+  "username" : "usertest2"
+},
+{
+  "id": "3",
+  "firstname": "UserTest3",
+  "lastname" : "UserTest3",
+  "username" : "usertest3"
+}
+]{"id":"2","firstname":"UserTest6060","lastname":"UserTest5050","username":"usertest4040"}

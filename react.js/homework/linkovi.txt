@@ -1,0 +1,6 @@
+https://reactrouter.com/web/guides/quick-start
+
+https://www.restapitutorial.com/httpstatuscodes.html
+
+https://jsonplaceholder.typicode.com/posts
+

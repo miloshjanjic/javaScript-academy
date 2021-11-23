@@ -1,0 +1,110 @@
+/*  da go podobrite source code od lecture8 i ovozmozite podatocite koi gi prakjate od POSTMAN da se zapishtal lokalno vo file (json file). Iskoristete go znaenjeto za filesystem.  */
+
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const usersDb = require('./db/users.json');
+const fs = require('fs');
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+// List
+app.get('/users', (req, res) => {
+  res.send({ body: usersDb });
+})
+
+// Get
+app.get('/users/:id', (req, res) => {
+  const { id } = req.params;
+
+  const isFound = usersDb.findIndex(user => user.id === id) > -1;
+
+  if (isFound) {
+    const foundUser = usersDb.find(user => user.id === id);
+    res.send({ body: foundUser });
+  } else {
+    res.send({ error: `User ${id} is not found.`});
+  }
+});
+
+// Create
+app.post('/users', (req, res) => {
+  const {
+    firstName,
+    lastName,
+    username
+  } = req.body;
+
+  const requestPayload = {
+    id: String(usersDb.length + 1),
+    firstName,
+    lastName,
+    username
+  }
+
+  usersDb.push(requestPayload);
+
+  res.send({ body: usersDb });
+})
+
+// Update   ( splice )
+app.put('/users/:id', (req, res) => {
+  const {
+    firstname,
+    lastname,
+    username
+  } = Object.assign({}, req.body);
+
+  const {id} = req.params; 
+  
+  const userIndex = usersDb.findIndex(user => user.id === id);
+
+  if(userIndex > -1){
+    if(req.body.id){
+      res.send({error: "Id cant be owervriten"});
+    } else{
+      const toUpdateData = {
+        id,
+        firstname,
+        lastname,
+        username
+      }
+      usersDb[userIndex] = toUpdateData;
+      res.send({ body : usersDb});
+      
+      //usersDb.push(toUpdateData);
+      // fs.appendFile('./db/users.json',JSON.stringify(usersDb),(err)=>{
+      //   if(err) throw err;
+      //   console.log('The "person" was appended to file ')
+      // });
+     
+      //JSON.parse(JSON.stringify(obj))
+      //JSON.stringify(fs.readFileSync("data.json"))
+    }
+  }else {
+    res.send({ error : `Users ${id} is not found.`});
+  }
+  
+});
+
+// Delete  (  pop || splice )
+app.delete('/users/:id', (req, res) => {
+  const { id } = req.params;
+
+  const userIndex = usersDb.findIndex(user => user.id === id);
+
+  if(userIndex > -1){
+    usersDb.splice(userIndex,1); //[1.2.3.]
+    res.send({ body: `User ${id} has been removed`});
+  }else{
+    res.send({ error: `User ${id} is not found`});
+  }
+});
+
+app.listen(PORT, () => {
+  console.log(`Listening on ${PORT} port`);
+})
